@@ -24,5 +24,11 @@ A computer vision pipeline for analyzing archery form using **MediaPipe**, **Ope
 ```bash
 git clone https://github.com/yourusername/future_sportler_archery.git
 cd future_sportler_archery
+```
 
+## 🚀 Deployment
+
+The application is deployed on **Streamlit Cloud** and accessible at:
+
+👉 [https://archery-precision-posture-evaluation-24vaj9eyta2gaaplak39r5.streamlit.app](https://archery-precision-posture-evaluation-24vaj9eyta2gaaplak39r5.streamlit.app)
 
