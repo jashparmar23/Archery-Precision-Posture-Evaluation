@@ -2,7 +2,6 @@
 
 A computer vision pipeline for analyzing archery form using **MediaPipe**, **OpenCV**, and a **Streamlit dashboard**. This project extracts body pose keypoints from videos, analyzes performance metrics (shoulder alignment, elbow angle, anchor point), and generates annotated videos, plots, feedback reports, and a user-friendly dashboard.
 
-![Dashboard Preview](docs/dashboard_preview.png)
 
 ---
 
