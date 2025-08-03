@@ -1,0 +1,14 @@
+File: Video-1.json
+Frames analyzed: 409
+
+[Elbow]
+- % of frames with full extension: 0.0%
+- Threshold: >160° is considered extended
+
+[Shoulder]
+- Mean shoulder alignment angle: 0.50°
+- Tilt variability (std dev): 11.24°
+
+[Anchor Point]
+- Anchor stability (std dev): 0.1719
+- ⚠ Inconsistent anchor point! Try to fix draw hand closer to chin.

@@ -1,0 +1,123 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Archery Summary Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+            th { background-color: #f2f2f2; }
+            h1 { color: #333; }
+            .good { background-color: #e7fbe7; }
+            .warn { background-color: #fff3cd; }
+        </style>
+    </head>
+    <body>
+        <h1>Archery Video Analysis Summary</h1>
+        <table>
+            <thead>
+                <tr>
+                    
+                    <th>Video</th>
+                    
+                    <th>ElbowExtended%</th>
+                    
+                    <th>ShoulderMean</th>
+                    
+                    <th>ShoulderStd</th>
+                    
+                    <th>AnchorStd</th>
+                    
+                    <th>AnchorFlag</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr class="warn">
+                    
+                    <td>Video-1.mp4</td>
+                    
+                    <td>0.0</td>
+                    
+                    <td>0.5024571052550812</td>
+                    
+                    <td>11.23792208285383</td>
+                    
+                    <td>0.1718831241536747</td>
+                    
+                    <td>Drift Detected</td>
+                    
+                </tr>
+                
+                <tr class="warn">
+                    
+                    <td>Video-2.mp4</td>
+                    
+                    <td>0.641025641025641</td>
+                    
+                    <td>-1.5014485034607474</td>
+                    
+                    <td>2.0128172141574683</td>
+                    
+                    <td>0.0562033342648559</td>
+                    
+                    <td>Drift Detected</td>
+                    
+                </tr>
+                
+                <tr class="warn">
+                    
+                    <td>Video-3.mp4</td>
+                    
+                    <td>1.2422360248447204</td>
+                    
+                    <td>-8.916623892713298</td>
+                    
+                    <td>7.421043357991239</td>
+                    
+                    <td>0.1464393887622286</td>
+                    
+                    <td>Drift Detected</td>
+                    
+                </tr>
+                
+                <tr class="good">
+                    
+                    <td>Video-4.mp4</td>
+                    
+                    <td>0.0</td>
+                    
+                    <td>-15.63803497808388</td>
+                    
+                    <td>5.491699629162414</td>
+                    
+                    <td>0.0</td>
+                    
+                    <td>Good</td>
+                    
+                </tr>
+                
+                <tr class="good">
+                    
+                    <td>Video-5.mp4</td>
+                    
+                    <td>0.0</td>
+                    
+                    <td>4.455741515897813</td>
+                    
+                    <td>34.154013773004</td>
+                    
+                    <td>0.0</td>
+                    
+                    <td>Good</td>
+                    
+                </tr>
+                
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
